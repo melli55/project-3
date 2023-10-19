@@ -1,1 +1,82 @@
 /* Place CSS styles here */
+
+/* Header and Nav */
+.revive-header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.revive-nav {
+    display: flex;
+    float: right;
+    align-items: right;
+}
+  
+.logo {
+    margin-left: 30px;
+    width: 100%;
+}
+
+
+
+/* Collapse Nav Button */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#1f4a5c;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+    
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e5e7ec;
+    display: block;
+    transition: 0.3s;
+}
+    
+.sidebar a:hover {
+    color: #154255;
+}
+    
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+    
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #013850;
+    padding: 10px 15px;
+    border: none;
+}
+    
+.openbtn:hover {
+    background-color: #013850;
+}
+    
+#button {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+    
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+  
