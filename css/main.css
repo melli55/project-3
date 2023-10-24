@@ -188,8 +188,8 @@ h3 {
   display: flex;
   background-color: #212121;
   height: 80vh;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   margin-right: auto;
   margin-left: auto ;
 }
@@ -280,4 +280,64 @@ h3 {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+
+
+
+/*Contact MG */
+.contact-wrapper {
+  display: flex;
+  background-color: #212121;
+  height: 18vh;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Meet MG */
+.meetme-wrapper {
+  display: flex;
+  background-color: #212121;
+  height: 18vh;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meetme-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meet-block {
+  display: flex;
+  background-color: #ffffff;
+  height: 75vh;
+  align-content: center;
+}
+
+.meet-text {
+}
+
+.meet-image {
 }
