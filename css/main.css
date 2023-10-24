@@ -183,13 +183,15 @@ h3 {
 }
 
 
+
 .book-wrapper {
   display: flex;
   background-color: #212121;
   height: 80vh;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto ;
 }
 
 * {box-sizing:border-box}
