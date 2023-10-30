@@ -11,13 +11,17 @@ h1 {
   h1 {
     font-size: 25px;
   }
+}
 
 h2 {
   color: #ffffff;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+  text-align: center;
 }
+
+
 
 h3 {
   color: #ffffff;
@@ -47,7 +51,7 @@ h3 {
     align-items: center;
     background-color: #2C71AA;
     justify-content: space-between;
-    height: 60px;
+    height: 65px;
   }
 }
   
@@ -59,8 +63,8 @@ h3 {
 @media (max-width: 480px) {
   .logo {
     margin-left: 20px;
-    height: 50;
-    width: 100;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -137,6 +141,12 @@ h3 {
   margin-right: auto;
 }
 
+@media (max-width: 480px) {
+  .title-wrapper {
+    height: 16vh;
+  }
+}
+
 .title-text {
   display: flex;
   justify-content: space-between;
@@ -145,6 +155,12 @@ h3 {
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 480px) {
+  .title-text {
+    margin-top: 25px;
+  }
 }
 
 /* Art Wrapper */
@@ -157,6 +173,16 @@ h3 {
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  .art-wrapper {
+    height: 245vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
 .artworks {
   display: flex;
   align-items: center;
@@ -165,6 +191,17 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   gap: 75px;
+}
+
+@media (max-width: 480px) {
+  .artworks {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+    margin-left: auto;
+  }
 }
 
 .moma {
