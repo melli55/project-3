@@ -380,6 +380,53 @@ h3 {
   margin-right: auto;
 }
 
+.form {
+  display:flex;
+  background-color: #212121;
+  height: 600px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #2C71AA; 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: white;
+  color: #2C71AA;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #2C71AA;
+  color: #ffffff;
+}
+
+/* Add a background color and some padding around the form */
+.forum-container {
+  border-radius: 5px;
+  background-color: #642a2a;
+  padding: 5px;
+}
+
+
+
+
 /* Meet MG */
 .meetme-wrapper {
   display: flex;
@@ -398,7 +445,6 @@ h3 {
 }
 }
 
-
 .meetme-text {
   display: flex;
   justify-content: space-between;
@@ -414,7 +460,6 @@ h3 {
     margin-top: 25px;
   }
 }
-
 
 .meet-container {
   display: flex;
@@ -449,7 +494,6 @@ h3 {
     align-items: center;
   }
 }
-
 
 .meet-text {
   display: flex;
