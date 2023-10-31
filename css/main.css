@@ -9,7 +9,7 @@ h1 {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 
@@ -85,6 +85,8 @@ h4 {
     margin-left: 20px;
     height: 100%;
     width: 100%;
+    margin-top: 5px;
+    margin-bottom: auto;
   }
 }
 
@@ -161,9 +163,7 @@ h4 {
 
 @media (max-width: 480px) {
   .title-wrapper {
-    height: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 70px;
   }
 }
 
@@ -179,7 +179,7 @@ h4 {
 
 @media (max-width: 480px) {
   .title-text {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
@@ -391,7 +391,7 @@ h4 {
 
 @media (max-width: 480px) {
   .contact-wrapper {
-    height: 10vh;
+    height: 8vh;
   }
 }
 
@@ -408,7 +408,7 @@ h4 {
 
 @media (max-width: 480px) {
   .contact-text {
-    margin-top: 25px;
+    margin-top: 10px;
   }
 }
 
@@ -422,7 +422,7 @@ h4 {
 
 @media (max-width: 480px) {
   .form {
-    height: 650px;
+    height: 670px;
   }
 }
 
@@ -479,7 +479,7 @@ input[type=submit]:hover {
 
 @media (max-width: 480px) {
 .meetme-wrapper {
-  height: 10vh;
+  height: 8vh;
 }
 }
 
@@ -495,7 +495,7 @@ input[type=submit]:hover {
 
 @media (max-width: 480px) {
   .meetme-text {
-    margin-top: 25px;
+    margin-top: 10px;
   }
 }
 
@@ -528,7 +528,7 @@ input[type=submit]:hover {
 @media (max-width: 480px) {
   .meet-image {
     display: flex;
-    width: 10px;
+    width: 6px;
     align-items: center;
     margin-left: 45px;
     margin-right: auto;
@@ -548,9 +548,8 @@ input[type=submit]:hover {
 @media (max-width: 480px) {
   .meet-text {
     margin-left: 50px;
-    margin-right: 80px;
+    margin-right: 50px;
     color: #ffffff;
     justify-content: space-between;
-    gap: 30px;
   }
 }
