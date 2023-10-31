@@ -1,5 +1,7 @@
 // JS scripts placed here
 
+
+/* Navigation Bar*/
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
@@ -10,7 +12,10 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
 
-  let slideIndex = 1;
+
+
+/* Slideshow */
+let slideIndex = 1;
   showSlides(slideIndex);
   
   // Next/previous controls
