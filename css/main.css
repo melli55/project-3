@@ -584,7 +584,7 @@ input[type=submit]:hover {
   background: #6bc4eb;
   display: flex;
   flex-direction: column;
-  height: 45.5vh;
+  height: 50vh;
 }
 
 .hero-image {
@@ -852,6 +852,9 @@ input[type=submit]:hover {
     margin-right: auto;
   }
 }
+
+
+
 
 
 
