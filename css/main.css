@@ -50,7 +50,7 @@ h4 {
 }
 
 h5 {
-  font-size: 125px;
+  font-size: 120px;
   color: #ffffff;
   border: #f1f1f1;
   font-family: serif;
@@ -632,7 +632,7 @@ input[type=submit]:hover {
 
 /* Home Page */
 .home-wrapper {
-  background-color: #212121;
+  background-color: #ffffff;
   height: 50vh;
   align-items: center;
   justify-content: space-between;
@@ -652,16 +652,14 @@ input[type=submit]:hover {
 
 /* Hero Wrapper */
 .hero-wrapper {
-  background: #212121;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 45vh;
 }
 
-
-
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("photographer.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -712,7 +710,7 @@ input[type=submit]:hover {
 }
 
 .home-wrap {
-  background-color: #212121;
+  background-color: #ffffff;
   height: 80vh;
   align-items: center;
   justify-content: space-between;
@@ -1015,3 +1013,39 @@ input[type=submit]:hover {
 
 
 
+
+
+
+
+
+
+
+
+.home-title {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ),
+  /* bottom, image */
+  url(../img/ad.png);
+
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+text-shadow: 1px 1px 1px #000;
+min-height: 50vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+.homepage-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
