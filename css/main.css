@@ -51,11 +51,20 @@ h4 {
 }
 
 h5 {
-  font-size: 120px;
+  font-size: 80px;
   color: #ffffff;
   border: #f1f1f1;
   font-family: serif;
 }
+
+@media (max-width: 480px) {
+  h5 {
+    font-size: 50px;
+    color: #ffffff;
+    border: #f1f1f1;
+    font-family: serif;
+  }
+}  
 
 h6 {
   font-size: 20px;
@@ -633,34 +642,6 @@ input[type=submit]:hover {
 
 
 /* Home Page */
-.home-wrapper {
-  background-color: #ffffff;
-  height: 50vh;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-}
- 
-@media (max-width: 480px) {
-  .home-wrapper {
-    display: flex;
-    background-color: #212121;
-    height: 80vh;
-    flex-direction: column ;
-    justify-content: space-between;
-    }
-}
-
-/* Hero Wrapper */
-.home-wrap {
-  background-color: #ffffff;
-  height: 40vh;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-}
 
 .home-title {
   background: 
@@ -684,6 +665,31 @@ height: 80vh;
 margin-top: 30px;
 }
 
+
+@media (max-width: 480px) {
+  .home-title {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.55), 
+      rgba(0, 0, 0, 0.55)
+    ),
+    /* bottom, image */
+    url(../img/ad.png);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 1vh;
+  margin-top: 30px;
+  }
+}
+
 .homepage-wrapper {
   max-width: 800px;
   margin-left: auto;
@@ -694,10 +700,23 @@ margin-top: 30px;
   height: 8vh;
 }
 
+@media (max-width: 480px) {
+  .homepage-wrapper {
+    max-width: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1vh;
+  }
+}
+
+
 .indexbook-wrapper {
   display: flex;
   background-color: #ffffff;
-  height: 10vh;
+  height: auto;
   align-items: center;
   justify-content: center;
   margin-right: auto;
@@ -994,7 +1013,7 @@ margin-top: 30px;
     display: flex;
     width: 6px;
     align-items: center;
-    margin-left: 27px;
+    margin-left: 1px;
     margin-right: auto;
     margin-top: 20px;
   }
